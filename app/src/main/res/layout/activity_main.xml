@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custo de viagem"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+       />
+
+    <EditText
+        android:id="@+id/km"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Distancia em km"
+
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/combustivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Custo por litro do combustivel"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/autonomia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Autonomia do vehiculo"
+        android:inputType="numberDecimal"
+        />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enviar"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        
+
+        />
+
+</LinearLayout>
